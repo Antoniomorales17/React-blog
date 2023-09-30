@@ -1,0 +1,92 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .topLeft,
+  .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .topCenter {
+    flex: 6;
+  }
+  
+  .topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .topListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .topListItem:hover{
+      color: gray;
+  }
+  
+  .topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+  }
+
+  /* TopBar.css */
+
+/* Estilos para los íconos */
+.icon-link {
+    margin-right: 10px; /* Espacio entre los iconos */
+    font-size: 24px; /* Tamaño del ícono */
+    color: #333; /* Color del ícono */
+    transition: color 0.3s ease-in-out; /* Efecto de transición al pasar el mouse sobre los íconos */
+  
+    /* Estilos para cuando se pasa el mouse sobre los íconos */
+    &:hover {
+      color: #007bff; /* Cambia el color al azul al pasar el mouse sobre los íconos */
+    }
+  }
+  
+  /* Estilos para el ícono de búsqueda */
+  .topSearchIcon {
+    font-size: 24px; /* Tamaño del ícono de búsqueda */
+    color: #333; /* Color del ícono de búsqueda */
+    transition: color 0.3s ease-in-out; /* Efecto de transición al pasar el mouse sobre el ícono de búsqueda */
+  
+    /* Estilos para cuando se pasa el mouse sobre el ícono de búsqueda */
+    &:hover {
+      color: #007bff; /* Cambia el color al azul al pasar el mouse sobre el ícono de búsqueda */
+    }
+  }
+  
